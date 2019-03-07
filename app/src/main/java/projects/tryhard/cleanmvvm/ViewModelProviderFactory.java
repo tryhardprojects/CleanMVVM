@@ -6,7 +6,7 @@ import android.arch.lifecycle.ViewModelProvider;
 import javax.inject.Inject;
 
 import projects.tryhard.cleanmvvm.data.DataManager;
-import projects.tryhard.cleanmvvm.main.MainViewModel;
+import projects.tryhard.cleanmvvm.ui.main.MainViewModel;
 
 public class ViewModelProviderFactory extends ViewModelProvider.NewInstanceFactory {
     private final DataManager dataManager;

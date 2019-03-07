@@ -2,6 +2,7 @@ package projects.tryhard.cleanmvvm;
 
 import android.app.Activity;
 import android.app.Application;
+import android.support.multidex.MultiDexApplication;
 
 import javax.inject.Inject;
 
@@ -10,7 +11,7 @@ import dagger.android.DispatchingAndroidInjector;
 import dagger.android.HasActivityInjector;
 import projects.tryhard.cleanmvvm.di.DaggerAppComponent;
 
-public class App extends Application implements HasActivityInjector {
+public class App extends MultiDexApplication implements HasActivityInjector {
     @Inject
     DispatchingAndroidInjector<Activity> dispatchingAndroidInjector;
 

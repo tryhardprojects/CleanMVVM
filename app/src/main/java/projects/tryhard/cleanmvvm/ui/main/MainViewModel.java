@@ -1,4 +1,4 @@
-package projects.tryhard.cleanmvvm.main;
+package projects.tryhard.cleanmvvm.ui.main;
 
 import projects.tryhard.cleanmvvm.data.DataManager;
 import projects.tryhard.cleanmvvm.ui.base.BaseViewModel;

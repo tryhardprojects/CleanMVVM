@@ -1,4 +1,4 @@
-package projects.tryhard.cleanmvvm.main;
+package projects.tryhard.cleanmvvm.ui.main;
 
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
